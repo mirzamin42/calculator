@@ -8,3 +8,23 @@ C:\Users\Mirzamin - PC\source\repos\CalculatorApp3\CalculatorApp3\obj\Debug\Calc
 C:\Users\Mirzamin - PC\source\repos\CalculatorApp3\CalculatorApp3\obj\Debug\CalculatorApp3.csproj.CoreCompileInputs.cache
 C:\Users\Mirzamin - PC\source\repos\CalculatorApp3\CalculatorApp3\obj\Debug\CalculatorApp3.exe
 C:\Users\Mirzamin - PC\source\repos\CalculatorApp3\CalculatorApp3\obj\Debug\CalculatorApp3.pdb
+C:\Users\P106\Desktop\ass\CalculatorApp3\CalculatorApp3\bin\Debug\CalculatorApp3.exe.config
+C:\Users\P106\Desktop\ass\CalculatorApp3\CalculatorApp3\bin\Debug\CalculatorApp3.exe
+C:\Users\P106\Desktop\ass\CalculatorApp3\CalculatorApp3\bin\Debug\CalculatorApp3.pdb
+C:\Users\P106\Desktop\ass\CalculatorApp3\CalculatorApp3\obj\Debug\CalculatorApp3.csprojResolveAssemblyReference.cache
+C:\Users\P106\Desktop\ass\CalculatorApp3\CalculatorApp3\obj\Debug\CalculatorApp3.Form1.resources
+C:\Users\P106\Desktop\ass\CalculatorApp3\CalculatorApp3\obj\Debug\CalculatorApp3.Properties.Resources.resources
+C:\Users\P106\Desktop\ass\CalculatorApp3\CalculatorApp3\obj\Debug\CalculatorApp3.csproj.GenerateResource.cache
+C:\Users\P106\Desktop\ass\CalculatorApp3\CalculatorApp3\obj\Debug\CalculatorApp3.csproj.CoreCompileInputs.cache
+C:\Users\P106\Desktop\ass\CalculatorApp3\CalculatorApp3\obj\Debug\CalculatorApp3.exe
+C:\Users\P106\Desktop\ass\CalculatorApp3\CalculatorApp3\obj\Debug\CalculatorApp3.pdb
+C:\Users\P106\Desktop\CalculatorApp3\CalculatorApp3\bin\Debug\CalculatorApp3.exe.config
+C:\Users\P106\Desktop\CalculatorApp3\CalculatorApp3\bin\Debug\CalculatorApp3.exe
+C:\Users\P106\Desktop\CalculatorApp3\CalculatorApp3\bin\Debug\CalculatorApp3.pdb
+C:\Users\P106\Desktop\CalculatorApp3\CalculatorApp3\obj\Debug\CalculatorApp3.csprojResolveAssemblyReference.cache
+C:\Users\P106\Desktop\CalculatorApp3\CalculatorApp3\obj\Debug\CalculatorApp3.Form1.resources
+C:\Users\P106\Desktop\CalculatorApp3\CalculatorApp3\obj\Debug\CalculatorApp3.Properties.Resources.resources
+C:\Users\P106\Desktop\CalculatorApp3\CalculatorApp3\obj\Debug\CalculatorApp3.csproj.GenerateResource.cache
+C:\Users\P106\Desktop\CalculatorApp3\CalculatorApp3\obj\Debug\CalculatorApp3.csproj.CoreCompileInputs.cache
+C:\Users\P106\Desktop\CalculatorApp3\CalculatorApp3\obj\Debug\CalculatorApp3.exe
+C:\Users\P106\Desktop\CalculatorApp3\CalculatorApp3\obj\Debug\CalculatorApp3.pdb

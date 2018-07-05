@@ -12,8 +12,11 @@ namespace CalculatorApp3
 {
     public partial class Form1 : Form
     {
-        string ilkDeyer = "";
-        double textBoxResult;
+        string operation = "";
+        decimal ilkDeyer;
+        decimal ikinciDeyer;
+        decimal textBoxResult;
+
         bool value = false;
 
         public Form1()
@@ -46,12 +49,14 @@ namespace CalculatorApp3
 
         private void operationClick(object sender, EventArgs e)
         {
-            Button button = new Button();
+            Button button =  new Button();
             button = (Button)sender;
-            ilkDeyer = button.Text;
-            textBoxResult = Convert.ToInt32(textBox_Result.Text);
-            label1.Text = textBoxResult + " " + ilkDeyer;
+            operation = button.Text;
+            textBoxResult = Convert.ToDecimal(textBox_Result.Text);
+            label1.Text = textBoxResult + " " + operation;
             value = true;
+            ilkDeyer = Convert.ToDecimal(textBox_Result.Text);
+            //operation = button.Text;
         }
 
 
@@ -67,31 +72,27 @@ namespace CalculatorApp3
         }
         private void button18_Click(object sender, EventArgs e)
         {
-            //if (ilkDeyer=="+")
-            //{
-            //    textBox_Result.Text = (textBoxResult + Double.Parse(textBox_Result.Text).ToString());
-            //}
-            //if (ilkDeyer=="-")
-            //{
-            //    textBox_Result.Text = (textBoxResult - Double.Parse(textBox_Result.Text).ToString());
-            //}
-            //switch (ilkDeyer)
-            //{
-            //    case " + ":
-            //        textBox_Result.Text = (textBoxResult + Convert.ToInt32(textBox_Result.Text).ToString());
-            //        break;
-            //    case " - ":
-            //        textBox_Result.Text = (textBoxResult - Convert.ToInt32(textBox_Result.Text).ToString());
-            //        break;
-            //    case " * ":
-            //        textBox_Result.Text = (textBoxResult * Convert.ToInt32(textBox_Result.Text).ToString());
-            //        break;
-            //    case " / ":
-            //        textBox_Result.Text = (textBoxResult / Convert.ToInt32(textBox_Result.Text).ToString());
-            //        break;
-            //    default:
-            //        break;
-            //}
+            ikinciDeyer = Convert.ToDecimal(textBox_Result.Text);
+            
+            switch (operation)
+            {
+                case "+":
+                    textBox_Result.Text = (ilkDeyer + ikinciDeyer).ToString();
+                    //ilkDeyer = Convert.ToDouble(textBox_Result.Text);
+                    break;
+                case "-":
+                    textBox_Result.Text = (ilkDeyer - ikinciDeyer).ToString();
+                    break;
+                case "*":
+                    textBox_Result.Text = (ilkDeyer * ikinciDeyer).ToString();
+                    break;
+                case "/":
+                    textBox_Result.Text = (ilkDeyer / ikinciDeyer).ToString();
+                    break;
+                default:
+                    break;
+            }
+            
         }
     }
 }
